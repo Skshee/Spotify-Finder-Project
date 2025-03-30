@@ -38,21 +38,31 @@ python-dotenv
 
 🔥 Example Output
 ```
-{
-  "artist": "Selena Gomez",
-  "top_tracks": [
-    "Lose You to Love Me",
-    "Rare",
-    "Look At Her Now"
-  ]
-}
+Enter name of Artist:Eminem
+Eminem
+1:Without Me
+2:Mockingbird
+3:Lose Yourself
+4:The Real Slim Shady
+5:Love The Way You Lie
+6:Till I Collapse
+7:Houdini
+8:Godzilla (feat. Juice WRLD)
+9:Superman
+10:Stan
+
+Enter name of Artist:Shankar Mahadevan
+Shankar Mahadevan
+1:Mitwa
+2:Sajdaa
+3:Uff Teri Adaa
+4:Gallan Goodiyaan
+5:Shiv Tandav Stotram
+6:Noor E Khuda
+7:Kajra Re
+8:Desi Girl
+9:Enna Solla Pogirai
+10:Tere Naina (From "Chandni Chowk To China")
 ```
 
-🤝 Contributing
-
-Feel free to fork, submit issues, or open pull requests!
-
-📜 License
-
-This project is licensed under the MIT License.
 
