@@ -12,15 +12,11 @@ Fetch the top tracks of an artist
 
 🔑 API & Tokens
 
-This project utilizes the Spotify Web API, which requires authentication via a client credentials flow. The authentication process involves generating an access token using the provided client ID and client secret. This token is then used in API requests to access Spotify's data.
+This project utilizes the Spotify Web API, which requires authentication via a client credentials flow. The authentication process involves generating an access token using the provided `client ID` and `client secret`. This token is then used in API requests to access Spotify's data.
 
 Authentication: The project retrieves an access token by making a request to the Spotify authentication server.
 
 Bearer Token Usage: The token must be included in the request headers as a Bearer token for all API calls.
-
-Search Endpoint: The /v1/search endpoint is used to find artists based on a query string.
-
-Top Tracks Endpoint: The /v1/artists/{id}/top-tracks endpoint fetches an artist’s most popular songs, requiring an additional market parameter.
 
 📌 Usage
 
@@ -32,7 +28,7 @@ Display the results in the console.
 
 📦 Dependencies
 
-requests
+python requests library
 
 python-dotenv
 
@@ -64,5 +60,11 @@ Shankar Mahadevan
 9:Enna Solla Pogirai
 10:Tere Naina (From "Chandni Chowk To China")
 ```
+
+💡 My Learning
+- `Working with APIs` - Fetching using RESTful APIs
+- `Requests Library` - get and post requests
+- `JSON handling` - Parsing JSON requests and extracting useful info
+- `dotenv` - Used for securely storing and handling API creds
 
 
